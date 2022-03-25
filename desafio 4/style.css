@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: antiquewhite;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chamativo {
+    color: green;
+    font-family: 'idroid', sans-serif;
+    font-size: 2em;
+}
+
+.centralizado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+}
+
+.boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-decoration-color: darkgreen;
+}
+
+.link:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.lista {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+header {
+    margin: 0px;
+    background-color: green;
+    background-image: linear-gradient(rgb(3, 151, 48), rgb(0, 17, 0));
+    padding: 1px 0px 0px 0px;
+    color: white;
+}
+
+header > h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+header > h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+    
+}
+
+nav {
+    margin: 40px 0px 0px 0px;
+    padding-bottom: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(152, 231, 176);
+
+}
+
+nav > a:hover {
+    background-color: rgba(122, 236, 156, 0.472);
+    border-radius: 8px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 35px 20px 35px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.39);
+}
+
+article {
+    padding: 1px 20px;
+    margin-top: 0px;
+}
+
+article > h2.chamativo {
+    font-size: 1.5em;
+    background-color: rgba(122, 236, 156, 0.767);
+    background-image: linear-gradient(to right, rgba(122, 236, 156, 0.767), white);
+}
+
+article > p {
+    font-size: 1em;
+}
+
+p > strong {
+    color: green;
+    background-color: rgb(122, 236, 156);
+}
+
+strong > a {
+    text-decoration: none;
+}
+
+div#extra {
+    background-color: rgba(122, 236, 156, 0.897);
+    border-radius: 8px;
+    margin: 0px 10px 10px 10px;
+    padding-bottom: 10px;
+}
+
+div#extra > h3 {
+    padding: 5px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+}
+
+div#extra > p {
+    padding: 0px 5px;
+}
+
+div#extra > ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    columns: 2;
+}
+
+p#agradecimento {
+    text-align: center;
+}
+
+p#agradecimento > strong {
+    background-color: white;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    margin-top: 0px;
+    height: 35px;
+}
